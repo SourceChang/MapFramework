@@ -16,7 +16,7 @@
 @interface SCMapView ()
 
 
-@property (nonatomic, strong, nullable) BMKMapView *mapView;
+@property (nonatomic, weak, nullable) BMKMapView *mapView;
 @property (nonatomic, strong, nullable) BMKMapManager *mapManager;
 
 
@@ -52,7 +52,9 @@
     [self.mapManager start:@"Knl1fpf4vP2yrg0cjsYBQi9i"
            generalDelegate:nil];
     
-    self.mapView = [[BMKMapView alloc] initWithFrame:CGRectZero];
+    BMKMapView *mapView = [[BMKMapView alloc] initWithFrame:CGRectZero];
+    [self addSubview:mapView];
+    self.mapView = mapView;
 }
 
 
