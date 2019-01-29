@@ -6,7 +6,12 @@
 //  Copyright (c) 2019 SourceChang. All rights reserved.
 //
 
+
 #import "SCViewController.h"
+
+
+#import <MapFramework/SCMapView.h>
+
 
 @interface SCViewController ()
 
@@ -18,6 +23,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    SCMapView *mapView = [[SCMapView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:mapView];
 }
 
 - (void)didReceiveMemoryWarning

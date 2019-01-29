@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7410E943168D068E653B301C93878ADB /* MapFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B355C827821E48C4AE90999576FDA4B9 /* MapFramework-dummy.m */; };
+		A31756D1221F9A95134F870346CAFCB3 /* MapFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B523520A1B984D603FB493858E1872B /* MapFramework-dummy.m */; };
+		BB0B1AA38849A2DB5FCD2EE4DEC9DB62 /* SCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D1C035254708593C0348C87A806AF2 /* SCMapView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC3688B42F1AF7D8B246C478D3D2CD30 /* Pods-MapFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F62DFA0EB106AB5CE601EEBAB8F18 /* Pods-MapFramework_Example-dummy.m */; };
-		C4CF466D2200688B008FB191 /* SCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CF466B2200688B008FB191 /* SCMapView.h */; };
-		C4CF466E2200688B008FB191 /* SCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CF466C2200688B008FB191 /* SCMapView.m */; };
 		D5D3294110A7E342FAA9728BE5510AA3 /* Pods-MapFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A2E75C95BD6BD5E596F71103EC6550 /* Pods-MapFramework_Tests-dummy.m */; };
+		DDA00202D78D9641607A2FD0ADF70830 /* SCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C68A2FE6A9A7B75B0F4F77514138BD0A /* SCMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -19,7 +19,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C7272C4E5E376E069B33AF7AE453A988;
+			remoteGlobalIDString = FBACD1E0FC9D7D6A91390ABC7844229D;
 			remoteInfo = MapFramework;
 		};
 		9CE978F68112A395834BD31D6044DB73 /* PBXContainerItemProxy */ = {
@@ -34,34 +34,34 @@
 /* Begin PBXFileReference section */
 		016FB85802EA16662E92A9C4940807A8 /* Pods-MapFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		01D9A91F6E633A1FE62E5A9C20737185 /* Pods-MapFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapFramework_Example-resources.sh"; sourceTree = "<group>"; };
+		0B523520A1B984D603FB493858E1872B /* MapFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapFramework-dummy.m"; sourceTree = "<group>"; };
+		0D884DC6B5660C9AACE0BA8F4A213CEF /* MapFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MapFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F6F62DFA0EB106AB5CE601EEBAB8F18 /* Pods-MapFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		27646A88583D1EF586EE1C6FA08AC25A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		355F095EA84D5903022BF74859B5A5C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		36A2E75C95BD6BD5E596F71103EC6550 /* Pods-MapFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		4DC13B6F261685624C88FD8D9D3660AB /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
 		528402497CCCDAD54DCF97E8C2564C85 /* Pods-MapFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		531E2027260E09C17C7A249791977ADF /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		67D1C035254708593C0348C87A806AF2 /* SCMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMapView.h; path = MapFramework/Classes/SCMapView.h; sourceTree = "<group>"; };
 		71C4D5E495B0FF6294001DD2EB94D80B /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
-		7564BAF7387232C314ED4CCC08EDFE96 /* libMapFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMapFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7564BAF7387232C314ED4CCC08EDFE96 /* libMapFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapFramework.a; path = libMapFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		84230C1CD9E22FB6115E7A18CFC5A58D /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
 		856B4032A5F284752942185DB85E70A9 /* Pods-MapFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89CAF2470DD903A3C8547FD53EA32B02 /* Pods-MapFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B7E6C7E496F8418A9D9EF6EF71FEC1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8C8C3063F3BDC2A48A7A48D02D4970E4 /* MapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapFramework.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94762E387C137CCE0485A8996B3115FA /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
 		953069E89C1EEB2ACCEA98C6D7520D12 /* Pods-MapFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9E09B8BC64D0E56A2725EB6F62E3BB76 /* MapFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MapFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A10A48134B5D6B0FC55E578F7BC485D8 /* Pods-MapFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B355C827821E48C4AE90999576FDA4B9 /* MapFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapFramework-dummy.m"; sourceTree = "<group>"; };
+		B7CC968BACD7C8CDFC58C9C9425F0958 /* MapFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapFramework-prefix.pch"; sourceTree = "<group>"; };
 		BD7BDFB15BB530F14A6CAED9698F43F1 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
-		C4CF466B2200688B008FB191 /* SCMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCMapView.h; path = MapFramework/Classes/SCMapView.h; sourceTree = "<group>"; };
-		C4CF466C2200688B008FB191 /* SCMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCMapView.m; path = MapFramework/Classes/SCMapView.m; sourceTree = "<group>"; };
-		C6D1881BC9AAA9F0FBB7AEBAA79158C3 /* libPods-MapFramework_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapFramework_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7C2D01FD3A362CDBE1F718E8741A2C5 /* MapFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapFramework-prefix.pch"; sourceTree = "<group>"; };
+		C68A2FE6A9A7B75B0F4F77514138BD0A /* SCMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCMapView.m; path = MapFramework/Classes/SCMapView.m; sourceTree = "<group>"; };
+		C6D1881BC9AAA9F0FBB7AEBAA79158C3 /* libPods-MapFramework_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MapFramework_Example.a"; path = "libPods-MapFramework_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBC2BDA3BCF5E9CB5274F163097FA8F /* Pods-MapFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D51274AE2C0CCCBE2086961C634B85DD /* libPods-MapFramework_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapFramework_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51274AE2C0CCCBE2086961C634B85DD /* libPods-MapFramework_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MapFramework_Tests.a"; path = "libPods-MapFramework_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D559C606BBE65DB46DFF847E9F673FF8 /* Pods-MapFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DD61DF643F43BAAF18086ECCB4C3E0B9 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		E73039AF71499B237941450ADE7341F3 /* MapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapFramework.xcconfig; sourceTree = "<group>"; };
+		EBE7C1B52AC85FAC378C73EC80199C91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ED4A74044EA96EDD756F6FA4BB32BF3F /* Pods-MapFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		FC727AE4A8B1F14CBEBD712F63009A99 /* Pods-MapFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FD92F5C165013E74E7F9C86FBE81ACAB /* Pods-MapFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,14 +69,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		436BDCF81D0100AF2F3C89AC9584AB6C /* Frameworks */ = {
+		2E06942B500A59AA4EABDE50A5248628 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D796DA799A068AAD8119D79BC16E8A5 /* Frameworks */ = {
+		436BDCF81D0100AF2F3C89AC9584AB6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,10 +93,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A802F12AE5EA1D5139A2CD4E0BBF863 /* Development Pods */ = {
+		030E2FB83AD96205811A778C90F3BAD0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA954919C54710CC26F992310BD96A1E /* MapFramework */,
+				2CBC91D0860A66BF627BD914FC4C3F54 /* MapFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -142,15 +142,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		479FF1DCB07F872E3F04973636E6CAD4 /* Support Files */ = {
+		2CBC91D0860A66BF627BD914FC4C3F54 /* MapFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8C8C3063F3BDC2A48A7A48D02D4970E4 /* MapFramework.xcconfig */,
-				B355C827821E48C4AE90999576FDA4B9 /* MapFramework-dummy.m */,
-				C7C2D01FD3A362CDBE1F718E8741A2C5 /* MapFramework-prefix.pch */,
+				67D1C035254708593C0348C87A806AF2 /* SCMapView.h */,
+				C68A2FE6A9A7B75B0F4F77514138BD0A /* SCMapView.m */,
+				46182BADA418AC775DA6C627BCAF5FF9 /* Pod */,
+				9DC32034CDA5E2C8B9548E0F28ED41AB /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MapFramework";
+			name = MapFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46182BADA418AC775DA6C627BCAF5FF9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EBE7C1B52AC85FAC378C73EC80199C91 /* LICENSE */,
+				0D884DC6B5660C9AACE0BA8F4A213CEF /* MapFramework.podspec */,
+				355F095EA84D5903022BF74859B5A5C6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		47A0835ED6456916F4B861F7D3D3E4AA /* Pods-MapFramework_Tests */ = {
@@ -188,22 +199,12 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0A802F12AE5EA1D5139A2CD4E0BBF863 /* Development Pods */,
+				030E2FB83AD96205811A778C90F3BAD0 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				77F83023C1B4EBA551726037F84301C2 /* Pods */,
 				22711080FE71377EF56E53D29DC3220C /* Products */,
 				168A98195FBB4434D1B35F638D210CA4 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		912C7F862E2A16F2A5EED243A0550691 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				27646A88583D1EF586EE1C6FA08AC25A /* LICENSE */,
-				9E09B8BC64D0E56A2725EB6F62E3BB76 /* MapFramework.podspec */,
-				8B7E6C7E496F8418A9D9EF6EF71FEC1C /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		99CD722EC6C2DD15891C6D746238BEDF /* Frameworks */ = {
@@ -220,16 +221,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA954919C54710CC26F992310BD96A1E /* MapFramework */ = {
+		9DC32034CDA5E2C8B9548E0F28ED41AB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4CF466B2200688B008FB191 /* SCMapView.h */,
-				C4CF466C2200688B008FB191 /* SCMapView.m */,
-				912C7F862E2A16F2A5EED243A0550691 /* Pod */,
-				479FF1DCB07F872E3F04973636E6CAD4 /* Support Files */,
+				E73039AF71499B237941450ADE7341F3 /* MapFramework.xcconfig */,
+				0B523520A1B984D603FB493858E1872B /* MapFramework-dummy.m */,
+				B7CC968BACD7C8CDFC58C9C9425F0958 /* MapFramework-prefix.pch */,
 			);
-			name = MapFramework;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MapFramework";
 			sourceTree = "<group>";
 		};
 		F3FA3F609DED53AEBA8E7CFECEDAB186 /* BaiduMapKit */ = {
@@ -238,6 +238,7 @@
 				99CD722EC6C2DD15891C6D746238BEDF /* Frameworks */,
 				52AD045B3420B483002A5EC0C241097F /* Resources */,
 			);
+			name = BaiduMapKit;
 			path = BaiduMapKit;
 			sourceTree = "<group>";
 		};
@@ -251,11 +252,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C800A8BA1637BEB654543506EE36C587 /* Headers */ = {
+		BEB58B3352D855C8DA26A72026CD47AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CF466D2200688B008FB191 /* SCMapView.h in Headers */,
+				BB0B1AA38849A2DB5FCD2EE4DEC9DB62 /* SCMapView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,13 +306,13 @@
 			productReference = D51274AE2C0CCCBE2086961C634B85DD /* libPods-MapFramework_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C7272C4E5E376E069B33AF7AE453A988 /* MapFramework */ = {
+		FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BB825DBC7D9090096B2D1E808C24BAA /* Build configuration list for PBXNativeTarget "MapFramework" */;
+			buildConfigurationList = 4371F2C402E068DC89F06A7214EE2796 /* Build configuration list for PBXNativeTarget "MapFramework" */;
 			buildPhases = (
-				C800A8BA1637BEB654543506EE36C587 /* Headers */,
-				3FDA7BD23F795D5800FAE276F7B6B23D /* Sources */,
-				8D796DA799A068AAD8119D79BC16E8A5 /* Frameworks */,
+				BEB58B3352D855C8DA26A72026CD47AD /* Headers */,
+				99135A91F3ED0515F57DC999BF6F0FF0 /* Sources */,
+				2E06942B500A59AA4EABDE50A5248628 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -343,7 +344,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7272C4E5E376E069B33AF7AE453A988 /* MapFramework */,
+				FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */,
 				7CD5E58E42DF3A4FDF35263780CEC078 /* Pods-MapFramework_Example */,
 				C282D69AFC68AA1CC3A6501FD24E34A8 /* Pods-MapFramework_Tests */,
 			);
@@ -351,20 +352,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FDA7BD23F795D5800FAE276F7B6B23D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7410E943168D068E653B301C93878ADB /* MapFramework-dummy.m in Sources */,
-				C4CF466E2200688B008FB191 /* SCMapView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		568B7C949B979E160035E784521471A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC3688B42F1AF7D8B246C478D3D2CD30 /* Pods-MapFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99135A91F3ED0515F57DC999BF6F0FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31756D1221F9A95134F870346CAFCB3 /* MapFramework-dummy.m in Sources */,
+				DDA00202D78D9641607A2FD0ADF70830 /* SCMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,12 +389,59 @@
 		F01C2105CFF136F7555C2D07C4BBB6B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapFramework;
-			target = C7272C4E5E376E069B33AF7AE453A988 /* MapFramework */;
+			target = FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */;
 			targetProxy = 19A147ED518EC23C2CD44C61D49F45BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4045F130E7B6415301821D50750C8312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73039AF71499B237941450ADE7341F3 /* MapFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapFramework;
+				PRODUCT_NAME = MapFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AEF75609E1465A79DD9CACC71A5EB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73039AF71499B237941450ADE7341F3 /* MapFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapFramework;
+				PRODUCT_NAME = MapFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6E0E7333FDF112DAB2C8AA2CB3A0FDCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBBC2BDA3BCF5E9CB5274F163097FA8F /* Pods-MapFramework_Tests.release.xcconfig */;
@@ -471,56 +519,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8E2E98ED398F50230393D8DD64789097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C8C3063F3BDC2A48A7A48D02D4970E4 /* MapFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MapFramework;
-				PRODUCT_NAME = MapFramework;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		90BD63A06C844FE6F9A9FDD0DD8C12C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C8C3063F3BDC2A48A7A48D02D4970E4 /* MapFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MapFramework;
-				PRODUCT_NAME = MapFramework;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -675,11 +677,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BB825DBC7D9090096B2D1E808C24BAA /* Build configuration list for PBXNativeTarget "MapFramework" */ = {
+		4371F2C402E068DC89F06A7214EE2796 /* Build configuration list for PBXNativeTarget "MapFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2E98ED398F50230393D8DD64789097 /* Debug */,
-				90BD63A06C844FE6F9A9FDD0DD8C12C3 /* Release */,
+				4045F130E7B6415301821D50750C8312 /* Debug */,
+				6AEF75609E1465A79DD9CACC71A5EB43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
