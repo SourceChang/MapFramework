@@ -1,16 +1,23 @@
 PODS:
-  - MapFramework (0.1.0)
+  - BaiduMapKit (4.2.1)
+  - MapFramework (1.0.0):
+    - BaiduMapKit
 
 DEPENDENCIES:
   - MapFramework (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BaiduMapKit
 
 EXTERNAL SOURCES:
   MapFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MapFramework: 5f06cdc7c5f2dc52f74546df55d7a08ec131dbd9
+  BaiduMapKit: b7430823de488bb6d082e4e1d356dadf09d3edb2
+  MapFramework: d5929ddec4467f5e189ccb221f2655bac99e342d
 
-PODFILE CHECKSUM: 93d3c6af9ed00c6721a406db1b98cde111902bc6
+PODFILE CHECKSUM: 4f78812ef67c7bf2a785a67b7eb9c63b20d962fc
 
 COCOAPODS: 1.5.3
