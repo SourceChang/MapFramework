@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MapFramework_Example' do
+  pod 'MapFramework', :path => '../'
+
+  target 'MapFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

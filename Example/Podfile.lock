@@ -1,0 +1,16 @@
+PODS:
+  - MapFramework (0.1.0)
+
+DEPENDENCIES:
+  - MapFramework (from `../`)
+
+EXTERNAL SOURCES:
+  MapFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MapFramework: 5f06cdc7c5f2dc52f74546df55d7a08ec131dbd9
+
+PODFILE CHECKSUM: 93d3c6af9ed00c6721a406db1b98cde111902bc6
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "MapFramework",
+  "version": "0.1.0",
+  "summary": "A short description of MapFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SourceChang/MapFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SourceChang": "sourcezhang@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/SourceChang/MapFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MapFramework/Classes/**/*"
+}
